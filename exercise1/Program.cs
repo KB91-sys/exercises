@@ -6,16 +6,14 @@ namespace exercise1
     {
         static void Main(string[] args)
         {
-			Console.Write("Tal 1: ");
-			string inputOne = Console.ReadLine();
-			Console.Write("Tal 2: ");
-			string inputTwo = Console.ReadLine();
+			//Uppgift 2
 
-			int numberOne = Convert.ToInt32(inputOne);
-			int numberTwo = Convert.ToInt32(inputTwo);
-			int sum = numberOne + numberTwo;
+            Console.Write("Skriv in ett decimaltal tal:");
+            double num = Double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Summan är: " + sum);
+            Console.Write("Talet " + num + " avrundat till heltal: " + Math.Round(num));
+
+
         }
     }
 }
